@@ -14,4 +14,6 @@
 
 - (IBAction)removeDataFile:(id)sender;
 
+- (void)fetchNewDataWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler;
+
 @end

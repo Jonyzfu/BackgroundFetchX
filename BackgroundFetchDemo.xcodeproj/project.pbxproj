@@ -204,6 +204,13 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = Appcoda;
 				TargetAttributes = {
+					C08FE17018B89CC20015017A = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					C08FE19118B89CC20015017A = {
 						TestTargetID = C08FE17018B89CC20015017A;
 					};
